@@ -14,7 +14,12 @@
     },
     {
       "name": "init",
-      "options" : [],
+      "options" : [
+        {
+          "name": "[--example]",
+          "summary": "creates boilerplate example contracts"
+        }
+      ],
       "summary" : "initializes a new dapple project in the current folder",
       "help": ""
     },
